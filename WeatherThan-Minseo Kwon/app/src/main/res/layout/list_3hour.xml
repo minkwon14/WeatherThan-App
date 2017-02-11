@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/transparent"
+    >
+    android:background="#000000"
+
+    <TextView
+        android:id="@+id/hourText"
+        android:text="Hour"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:shadowColor="#000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="10.0"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:id="@+id/hourIcon"
+        android:background="@null"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/hourTempText"
+            android:text="Temp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="10.0"/>
+
+        <TextView
+            android:id="@+id/hourwindchillText"
+            android:text="windTemp"
+            android:textColor="#ffffff"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="10.0"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
